@@ -1,0 +1,3 @@
+# Golang_Goroutine
+並行的練習
+原本需要使用GOTO的方法讓一個goroutine跳出for讓兩個goroutine從新搶資源，但GO.14版以後會自動分配Goroutine來切換執行

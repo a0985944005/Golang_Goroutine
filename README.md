@@ -1,2 +1,2 @@
 # Golang_Goroutine
-Golang_Goroutine
+Golang_Goroutine操作練習

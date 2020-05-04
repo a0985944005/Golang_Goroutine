@@ -45,12 +45,9 @@ func main() {
 	wg.Add(1)
 	go TaskB(&wg)
 
-
-
 	//阻塞等待直至所有其它的 goroutine 都已執行完畢
 	wg.Wait()
 	fmt.Println("all the tasks done...")
-
 
 	// 也可以一次設定幾個goroutine去執行
 	wg.Add(3)
@@ -61,4 +58,4 @@ func main() {
 	//阻塞等待直至所有其它的 goroutine 都已執行完畢
 	wg.Wait()
 	fmt.Println("all the tasks done...")
-}geniusboss
+}
